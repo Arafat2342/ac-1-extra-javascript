@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Fun fact about Ussr.</h1> 
+
+    <p id="search_result"></p>
+    <p id="replace_result"></p>
+    <p id="string_result"></p>
+
+    <script>
+      var str = "If the soviet developed Youtube it's name would be Ourtube",
+      txt = str.search("soviet"),
+      replace = str.replace("soviet", "Soviet's"),
+      x = 19,
+      y = 91;
+
+      document.getElementById("search_result").innerHTML = txt;
+      document.getElementById("replace_result").innerHTML = replace;
+      document.getElementById("string_result").innerHTML = String(x) + String(y);
+
+     
+    </script>
+</body>
+</html>
